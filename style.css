@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width : 40vw;
+    margin : 200px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 13px;
+    background-color: white;
+}
+
+.text{
+    margin : 10px 20px;
+    border-collapse: collapse;
+}
+
+img{
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 13px;
+    margin-bottom: 0px;
+}
+
+.light{
+    color: grey;
+}
+
+.gap{
+    letter-spacing: 1.8px;
+}
+
+h1,p,h2,a{
+    margin : 5px 0;
+}
+
+button{
+    background-color: rgb(3, 163, 3);
+    margin-top: 10px;
+    display: flex;
+    padding: 10px 10px;
+    color : white;
+    text-align: center; 
+    justify-content: center;
+    border-radius: 13px;
+    font-size: 1.5rem;
+}
+button i{
+    margin-right: 5px;
+}
+span{
+    text-decoration-line: line-through;
+    font-size: large;
+    margin : 0px 5px ;
+}
+
+.background{
+    background-color: pink;
+    width: 80vw;
+    margin: 100px auto;
+    padding: 10px 10px;
+    height: max-content;
+    border-radius: 15px;
+}
+.text p+h2{
+    display: inline-block;
+    color: rgb(3, 163, 3);
+}
